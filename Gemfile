@@ -10,6 +10,8 @@ ruby '1.9.3'
 group :development, :test do
   gem 'sqlite3'
   gem 'debugger'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :production do
